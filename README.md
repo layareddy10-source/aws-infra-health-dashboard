@@ -31,8 +31,6 @@ Requires an IAM role with `AmazonEC2ReadOnlyAccess` attached to the host running
 ## Tech stack
 
 Python, Flask, boto3, Docker
-<img width="951" height="320" alt="image" src="https://github.com/user-attachments/assets/cd5f3112-b5af-4643-9fcb-160b9c3d49e6" />
-
 
 ## Roadmap
 
