@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: infra-dashboard
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: infra-dashboard
+  template:
+    metadata:
+      labels:
+        app: infra-dashboard
+    spec:
+      containers:
+      - name: infra-dashboard
+        image: ylayareddy/infra-health-dashboard:latest
+        ports:
+        - containerPort: 5000
