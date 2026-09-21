@@ -85,4 +85,4 @@ Requires an IAM role with `AmazonEC2ReadOnlyAccess` attached to the host.
 ## Author
 
 **Laya Reddy** — AWS/VMware Windows administrator transitioning into DevOps.
-[LinkedIn](www.linkedin.com/in/laya-r-172b32403) | [GitHub](https://github.com/layareddy10-source) | [Portfolio](https://github.com/layareddy10-source/layareddy10-source.github.io/)
+[LinkedIn](www.linkedin.com/in/laya-r-172b32403) | [GitHub](https://github.com/layareddy10-source) | [Portfolio](https://layareddy10-source.github.io)
