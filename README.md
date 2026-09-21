@@ -48,10 +48,25 @@ flowchart LR
 ## Screenshots
 
 - Dashboard view
+<img width="951" height="320" alt="Screenshot 2026-09-22 012729" src="https://github.com/user-attachments/assets/81081aae-ccc2-4c55-a814-2f7427ac0a12" />
+
 - `kubectl get pods` showing running replicas
+<img width="566" height="82" alt="image" src="https://github.com/user-attachments/assets/3f9a9755-dac5-447e-81e3-e66202392f48" />
+ 
 - GitHub Actions pipeline succeeding
+<img width="943" height="343" alt="image" src="https://github.com/user-attachments/assets/470fdfad-62d6-4983-acfd-4870010a3bf7" />
+
 - Grafana dashboard with live metrics
+<img width="828" height="401" alt="Screenshot 2026-09-21 224918" src="https://github.com/user-attachments/assets/a4ee7201-b504-4b02-b36a-c553a5e7f1fa" />
+<img width="953" height="464" alt="Screenshot 2026-09-21 232108" src="https://github.com/user-attachments/assets/3f878d43-f340-4968-bc1f-aaafbafb25b9" />
+<img width="951" height="461" alt="Screenshot 2026-09-21 232135" src="https://github.com/user-attachments/assets/475734bd-c4b0-4570-aaec-6b1188169e21" />
+<img width="950" height="471" alt="Screenshot 2026-09-21 232205" src="https://github.com/user-attachments/assets/b9d13c29-f15f-4c2d-bd05-e8b973f69be2" />
+<img width="952" height="470" alt="Screenshot 2026-09-21 232246" src="https://github.com/user-attachments/assets/6e2bf3a6-3a11-4818-999d-19cb2dd0f0a1" />
+<img width="954" height="471" alt="Screenshot 2026-09-21 232307" src="https://github.com/user-attachments/assets/add744d7-a6f6-434b-8e41-fb164fb7b9c4" />
+
 - Windows IIS page served after Ansible configuration
+<img width="956" height="212" alt="Screenshot 2026-09-21 222219" src="https://github.com/user-attachments/assets/606e259c-6a26-4e48-b8d3-f8ea3ecbcc36" />
+
 
 ## Challenges I hit and how I solved them
 
