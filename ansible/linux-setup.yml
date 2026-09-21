@@ -1,0 +1,32 @@
+---
+- name: Configure and verify Linux DevOps node
+  hosts: linux
+  become: true
+  tasks:
+    - name: Ensure Docker is installed
+      apt:
+        name: docker.io
+        state: present
+
+    - name: Ensure UFW firewall is installed
+      apt:
+        name: ufw
+        state: present
+
+    - name: Allow SSH through firewall
+      ufw:
+        rule: allow
+        port: '22'
+        proto: tcp
+
+    - name: Allow app port through firewall
+      ufw:
+        rule: allow
+        port: '5000'
+        proto: tcp
+
+    - name: Ensure Docker service is running
+      systemd:
+        name: docker
+        state: started
+        enabled: true

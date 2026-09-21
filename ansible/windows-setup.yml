@@ -1,0 +1,23 @@
+---
+- name: Configure Windows Server via Ansible
+  hosts: windows
+  tasks:
+    - name: Ensure IIS web server feature is installed
+      win_feature:
+        name: Web-Server
+        state: present
+        include_management_tools: true
+
+    - name: Create a custom index page
+      win_copy:
+        content: "<h1>Managed by Ansible from a Linux control node</h1><p>Provisioned as part of an AWS/VMware-to-DevOps portfolio project.</p>"
+        dest: C:\inetpub\wwwroot\index.html
+
+    - name: Ensure Windows Firewall allows HTTP
+      win_firewall_rule:
+        name: Allow HTTP
+        localport: 80
+        action: allow
+        direction: in
+        protocol: tcp
+        state: present
